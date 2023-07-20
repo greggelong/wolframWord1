@@ -62,7 +62,7 @@ function setup() {
   setBinRule()
   createCanvas(windowWidth, windowHeight);
   textAlign(LEFT,TOP)
-  cellw = floor(windowWidth/40)
+  cellw = (windowWidth/29)  // if you don't floor it it gits some nice collisions
   background(127);
   print(ruleset)
   resetIt();
